@@ -1,14 +1,14 @@
 extends layout
-
 block content
-  h1= title
-  p Welcome to #{title}
-  a.alldonuts.button(href='/donuts') click here to view all donuts
-  a.button(href='donuts/1') click here to see a donut with id of 1
+  //- h1= title
+  header.donutbackground
+    div.centerBttns
+      a.alldonuts.button(href='/donuts') click here to view all donuts
+      a.button(href='donuts/1') click here to see a donut with id of 1
   .clearclass
-  h4
+  h4.bg-color
     | Here is an example of javascript loading the data from a JSON file by using the appropriate restful route
-  table
+  table.bg-color
     thead
       tr
         th(scope='col') unique key
@@ -18,10 +18,11 @@ block content
         // <th scope="col">id</th>
     tbody
   hr
-  em
-    p.explanation
-      | The javascript iterates through the JSON object and appends the data as string format into the table!
-    p.explanation
-      | for example the entire string includes the html tags which make up the table, "</tr>my donut object</tr>+<tr>etc</tr>",
-    p.explanation
-      | then by using the append function in javascript we add our string of data and tags to the preexisting table in our html file.
+  div.bg-color
+    em
+      p.explanation
+        | The javascript iterates through the JSON object and appends the data as string format into the table!
+      p.explanation
+        | for example the entire string includes the html tags which make up the table, "</tr>my donut object</tr>+<tr>etc</tr>",
+      p.explanation
+        | then by using the append function in javascript we add our string of data and tags to the preexisting table in our html file.

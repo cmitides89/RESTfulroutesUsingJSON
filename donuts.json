@@ -1,0 +1,38 @@
+{
+    "donut1": {
+        "name": "strawberry donut",
+        "price": "$3.00",
+        "calories": "300",
+        "id": 1
+    },
+    "donut2": {
+        "name": "vanilla ring",
+        "price": "$3.00",
+        "calories": "300",
+        "id": 2
+    },
+    "donut3": {
+        "name": "chocolate ring",
+        "price": "$3.00",
+        "calories": "300",
+        "id": 3
+    },
+    "donut4": {
+        "name": "jelly donut",
+        "price": "$3.00",
+        "calories": "450",
+        "id": 4
+    },
+    "donut5": {
+        "name": "vanilla lavender donut",
+        "price": "$4.50",
+        "calories": "300",
+        "id": 5
+    },
+    "donut6": {
+        "name": "double chocolate donut",
+        "price": "$4.50",
+        "calories": "450",
+        "id": 6
+    }
+}

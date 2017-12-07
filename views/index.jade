@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  a.alldonuts.button(href='/donuts') click here to view all donuts
+  a.button(href='donuts/1') click here to see a donut with id of 1
+  .clearclass
+  h4
+    | Here is an example of javascript loading the data from a JSON file by using the appropriate restful route
+  table
+    thead
+      tr
+        th(scope='col') unique key
+        th(scope='col') donut name
+        th(scope='col') price
+        th(scope='col') calories
+        // <th scope="col">id</th>
+    tbody
+  hr
+  em
+    p.explanation
+      | The javascript iterates through the JSON object and appends the data as string format into the table!
+    p.explanation
+      | for example the entire string includes the html tags which make up the table, "</tr>my donut object</tr>+<tr>etc</tr>",
+    p.explanation
+      | then by using the append function in javascript we add our string of data and tags to the preexisting table in our html file.

@@ -1,0 +1,62 @@
+body{
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                /* background-image: url('public/images/donuts.jpg'); */
+            }
+            ul li{
+                list-style: none;
+            }
+            table{
+                font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+                font-size: 12px;
+                width: 480px;
+                text-align: left;
+                border-collapse: collapse;
+                margin: 30px 30px 30px 15px;
+            }
+            table th{
+                font-weight: normal;
+                font-size: 14px;
+                border-bottom: 2px solid #6678b1;
+                border-right: 30px solid #fff;
+                border-left: 30px solid #fff;
+                color: #039;
+                padding: 8px 2px;
+            }
+            table tr{
+                border-bottom: 1px solid #ddd;
+            }
+            tbody tr td{
+                border-right: 30px solid #fff;
+                border-left: 30px solid #fff;
+                color: #669;
+                padding: 12px 2px 0;
+            }
+            h4{
+                color: #669;
+            }
+            p{
+                color:#039;
+            }
+            a.alldonuts{
+                margin-right:50px;
+            }
+            .button {
+                display: block;
+                /* width: 115px; */
+                /* height: 25px; */
+                background: #4E9CAF;
+                padding: 10px;
+                text-decoration: none;
+                text-align: center;
+                border-radius: 5px;
+                color: white;
+                font-weight: bold;
+                float:left;
+                margin-bottom:45px;
+            }
+            .clearclass{
+                clear:left;
+            }
+            p.explanation{
+                color:#800020;
+            }
